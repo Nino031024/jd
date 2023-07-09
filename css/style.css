@@ -115,12 +115,35 @@ li {
 }
 
 
+
+
+
+
 /* 聚焦图模块 */
-.focus {
+.slideshow-container {
     padding-top: 44px;
 }
 
-.focus > img {
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slide:nth-child(1) {
+    display: block;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+img {
     width: 100%;
 }
 
